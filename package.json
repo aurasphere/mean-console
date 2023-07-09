@@ -1,0 +1,29 @@
+{
+  "name": "mean-console",
+  "description": "Let the console express how it feels about your coding mistakes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Donato Rimenti",
+  "license": "MIT",
+  "type": "module",
+  "module": "dist/mean-console.esm.js",
+  "browser": "dist/mean-console.umd.js",
+  "repository": "github:aurasphere/mean-console",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/plugin-syntax-import-attributes": "^7.22.5",
+    "@babel/preset-env": "^7.22.7",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup": "^3.26.2"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
