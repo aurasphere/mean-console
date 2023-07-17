@@ -1,7 +1,7 @@
 {
   "name": "@aurasphere/mean-console",
   "description": "Let the console express how it feels about your coding mistakes",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "Donato Rimenti",
   "license": "MIT",
   "publishConfig": {
